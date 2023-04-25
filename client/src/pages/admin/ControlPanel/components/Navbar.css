@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  color: white;
+  height: 100px;
+  width: 80%;
+  background-color: #1b203d;
+  padding: 10px 60px;
+  z-index: 2000;
+}
+.activeNav {
+  display: inline-block;
+  font-size: 3rem;
+  margin-left: 2rem;
+  font-family: bold;
+}
+.bar {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0 0.5rem;
+}
+.user-circle {
+  font-size: 3rem;
+}
+.greeting {
+  font-size: 1rem;
+  margin-top: 20px;
+}

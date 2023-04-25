@@ -1,0 +1,17 @@
+.admin-dashboard {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #001e3c;
+  font-family: system-ui;
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.dynamic {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding-right: 5rem;
+  position: relative;
+}
